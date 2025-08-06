@@ -49,32 +49,31 @@ chat-dashboard/
 **1. Clone and navigate to the project:**
 ```bash
 git clone https://github.com/Fene-87/Real-Time-Chat.git
-cd chat-dashboard
 ```
 
 **2. Install Backend Dependencies:**
 ```bash
-cd backend
+cd chat-backend
 npm install
 ```
 
 **3. Install Frontend Dependencies:**
 ```bash
-cd ../frontend
+cd chat-frontend
 npm install
 ```
 
 **4. Start the Backend Server:**
 ```bash
-cd ../backend
+cd chat-backend
 npm run dev
 ```
 ✅ Backend will run on `http://localhost:5000`
 
 **5. Start the Frontend (in a new terminal):**
 ```bash
-cd frontend
-npm start
+cd chat-frontend
+npm run dev
 ```
 ✅ Frontend will open automatically at `http://localhost:3000`
 
